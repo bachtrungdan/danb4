@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: red;
 }
 
 .App-logo {
@@ -28,10 +29,45 @@
   color: #61dafb;
 }
 
+h1 {
+  color: red;
+}
+
+#dan {
+  color: black;
+  background: burlywood;
+  justify-content: baseline;
+}
+
+.flace {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.flace:hover {
+  background: darkgrey;
+}
+
+
+#dan:hover {
+  background-color: darkgray;
+}
+
+.bang {
+  display: flex;
+  justify-content: space-between;
+}
+.tieuDe{
+  display: flex;
+  justify-content: space-between;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
